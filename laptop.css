@@ -1,0 +1,232 @@
+/* body {
+    background-color: yellow;
+    background-repeat: no-repeat ;
+background-size: cover;
+background-attachment: fixed;
+    
+
+
+} */
+body {
+  background-image: url("./img/gamingpage2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* backdrop-filter: blur(4px); */
+  background-attachment: fixed;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+}
+
+a {
+    font-size: 20px;
+}
+
+/* navigation bar designing */
+nav {
+  background-color: rgba(3, 3, 3, 0.41);
+  padding-top: 14px;
+  padding-bottom: 14px;
+  text-align: center;
+  color: rgb(180, 140, 140);
+  width: fit-content;
+  margin: auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 1vw;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+/* social media link designing */
+#logo {
+  margin: auto;
+  width: fit-content;
+  margin-top: 2vh;
+}
+
+#logo a {
+  margin: 0 0.4vw;
+}
+
+/* main body designing */
+main {
+  height: 470px;
+  margin-top: 50px;
+  text-align: center;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+
+#actual-timings {
+  width: fit-content;
+  margin: auto;
+  margin-top: 3vh;
+  padding: 1vh 1vw;
+}
+
+h1 {
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  font-family: 'Courier New', monospace;
+  border-radius: 6px;
+}
+h6 {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  font-family: 'Courier New', monospace;
+  border-radius: 6px;
+}
+
+tr {
+  font-size: 25px;
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  padding: 1.5vh 1vw;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.4);
+  
+}
+
+th {
+  font-size: 25px;
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  padding: 1.5vh 1vw;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.4);
+  
+}
+u {
+  font-size: 25px;
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  padding: 1.5vh 1vw;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.4);
+  
+}
+h7 {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-family: 'Courier New', monospace;
+  border-radius: 6px;
+}
+
+h8 {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-family: 'Courier New', monospace;
+  border-radius: 6px;
+}
+
+p {
+    font-size: 25px;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    padding: 1.5vh 1vw;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+}
+
+h2 {
+  margin: auto;
+  margin-top: 5vh;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  width: fit-content;
+  padding: 1vh 10vw;
+  border-radius: 150px;
+  box-shadow: 0 0 5px 2px black;
+}
+
+h2:hover {
+  background-color: rgb(50, 50, 50);
+  box-shadow: 0 0 5px 2px rgb(50, 50, 50);
+}
+h3 {
+  font-size: 18px;
+  margin: auto;
+  margin-top: 1vh;
+  color: white;
+  background-color: rgb(20, 17, 17);
+  width: fit-content;
+  padding: 0.5vh 1vw;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 2px black;
+}
+h4 {
+  margin: auto;
+  margin-top: 1vh;
+  color: white;
+  background-color: rgb(190, 15, 15);
+  width: fit-content;
+  padding: 0.5vh 1vw;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 2px black;
+}
+h5 {
+  font-size: 32px;
+  margin: auto;
+  margin-top: 1vh;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  width: fit-content;
+  padding: 0.5vh 1vw;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 2px black;
+}
+i {
+  margin: auto;
+  margin-top: 1vh;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  width: fit-content;
+  padding: 0.5vh 1vw;
+  border-radius: 3px;
+  /* box-shadow: 0 0 5px 2px black; */
+}
+
+#make-reservation {
+    text-decoration: none;
+    width: 300px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* footer designing */
+footer {
+  height: 25px;
+  text-align: center;
+}
+
+footer a {
+  font-size: 22px;
+  padding: 12px 12px;
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+
+footer a:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+
+img {
+  border-radius: 5%;
+}
